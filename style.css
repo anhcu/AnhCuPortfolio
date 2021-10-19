@@ -223,7 +223,7 @@ body{
     #home{
       background: url('./assets/images/deadlift.jpg') no-repeat center top fixed;
 	    background-size: cover;
-	    min-height: 10vh;
+	    /* min-height: 10vh; */
 	    /* position: relative; */
     }
 }
@@ -272,9 +272,9 @@ body {
 #ProjectCard {
 	background: url('./assets/images/deadlift.jpg') no-repeat center bottom fixed;
 	background-size: cover;
-	min-height: 100vh;
+	/* min-height: 100vh;
 	position: relative;
-	margin-top: 20px;
+	margin-top: 20px; */
   }
 
 .projectP{
