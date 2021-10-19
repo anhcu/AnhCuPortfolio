@@ -223,6 +223,12 @@ body{
     #home{
       background: url('./assets/images/deadlift.jpg') no-repeat center top fixed;
 	    background-size: cover;
+      width: 100%;
+height:100%;
+background-position: center center;
+text-align:center;
+margin:auto;
+padding:0;
 	    /* min-height: 10vh; */
 	    /* position: relative; */
     }
