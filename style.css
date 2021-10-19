@@ -13,302 +13,16 @@ body{
   font-family: 'Roboto', sans-serif;
   font-size: .875em;
   overflow-x: hidden;
+	background: url('./assets/images/deadlift.jpg') no-repeat center top fixed;
+	background-size: cover;
+	min-height: 100vh;
+	position: relative;
 }
 
 /*NAV*/
 /* .navbar-header{
 	height:10px;
 } */
-
-
-@import url('https://fonts.googleapis.com/css?family=Muli:300,400|Philosopher:400,700');
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html,
-body {
-  background-color: #fff;
-  color: #3e4546;
-  font-family: 'Muli', sans-serif;
-  font-weight: 300;
-  font-size: 20px;
-  text-rendering: optimizeLegibility;
-  overflow-x: hidden;
-}
-
-p {
-  font-size: 90%;
-  line-height: 1.7;
-}
-
-.row {
-  max-width: 90%;
-  margin: 0 auto;
-}
-
-section {
-    padding: 20px 0 40px 0;
-}
-
-
-
-/*---------- NAV ----------*/
-body {
-  width: auto;
-  height: auto;
-  /* font-size: 18px; */
-  font-family: "Noto Sans";
-}
-
-#red-text {
-    color: #ff5a6e;
-}
-
-#title-text-separator {
-  width: 5%;
-  margin-top: 1%;
-  border: solid 1px #ff5a6e;
-}
-
-.responsive-menu-link {
-  color: black;
-}
-
-
-/* ----- General Header CSS ------ */
-
-#header {
-  position: fixed;
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  width: 100%;
-  margin: auto;
-  font-size: 19px;
-  min-height: 100px;
-}
-
-
-
-
-
-/* Normal Header */
-
-.active-header {
-  background-color: white;
-  color: black;
-}
-
-.menu-link {
-  color: white;
-}
-
-.active-menu-links {
-  color: black;
-}
-
-#normal-header {
-  position: fixed;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  margin: auto;
-  font-size: 19px;
-  min-height: 100px;
-}
-
-#header-img {
-  width: 250px;
-  margin-left: 15%;
-}
-
-#nav-bar {
-}
-
-#nav-bar ul {
-  list-style: none;
-  display: flex;
-  flex-flow: row;
-}
-
-#nav-bar li {
-  padding: 10px;
-  margin: 12px;
-}
-
-#nav-bar ul, a {
-  text-decoration: none;
-}
-
-
-
-
-
-
-/* Responsive Header */
-
-#responsive-header {
-  display: none;
-}
-
-#image-button-black {
-  display: none;
-  border: none;
-}
-
-#image-button-black:hover {
-  cursor: pointer;
-}
-
-#image-button-black:focus {
-  outline: 0;
-}
-
-
-
-
-
-/* ----- Hero Header CSS -----
-
-Tags included:
-
-1. hero-header - main container of the Hero
-
-2. hero-content - the container of the title and description within the hero Section
-
-3. hero-title - the title within the hero section
-
-4. hero-text - the text within the hero section
-
-5. hero-button - the button within the hero section
-
-*/
-
-#hero-header {
-  /* width: 100vw; */
-  height: 100vh;
-  box-shadow: 3px 3px 2px #bebebe;
-
-  /* hero-header flexbox */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  /* Texy style */
-  text-align: center;
-  color: white;
-
-  /* Background image */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(https://i.ibb.co/VTdML0x/accessories-apple-business-1038628.jpg);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
-#hero-title {
-  font-size: 3.5em;
-}
-
-#hero-text {
-  font-size: 1.3em;
-  margin-top: 2%;
-}
-
-#hero-button {
-  border: solid 2px white;
-  background-color: inherit;
-  color: white;
-  margin-top: 6%;
-  width: 25%;
-  height: 55px;
-  font-size: 15px;
-  border-radius: 10px;
-}
-
-#hero-button:hover {
-  cursor: pointer;
-}
-
-/*------- HEADER ------------*/
-
-header {
-  position: relative;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://github.com/linh4/landing-page/blob/master/img/nutbackground-min.jpg?raw=true);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  height: 100vh;
-  text-align: center;
-  color: #fff;
-  width: 100%;
-  text-align: center;
-}
-
-.text-box {
-    position: absolute;
-    width: 90%;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%)
-}
-
-h1 {
-  font-family: 'Philosopher', sans-serif;
-  font-size: 250%;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  word-spacing: 2px;
-  color: #fff;
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 10px;
-}
-
-.text-box p {
-  text-align: center;
-  font-style: italic;
-  margin-bottom: 30px;
-}
-
-/*-----BUTTON ------*/
-.btn:link,
-.btn:visited,
-input[type=submit] {
-  display: inline-block;
-  padding: 10px 30px;
-  font-weight: 300;
-  border-radius: 150px;
-   -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
-  transition: background-color 0.2s, border 0.2s, color 0.2s;
-  background: #ee8478;
-  border: 2px solid #eb685a;
-  color: #fff; 
-  font-size: 90%;
-  margin-right: 20px;
-}
-
-.btn:hover,
-.btn:active,
-input[type=submit]:hover,
-input[type=submit]:active {
-  background-color: #eb685a;
-  color: #fff;
-  transition: 0.3s;
-}
 
 
 
@@ -318,8 +32,8 @@ input[type=submit]:active {
 	background-size: cover;
 	min-height: 100vh;
 	position: relative;
-	margin-top: -20px;
-  }
+
+  } */
   
   .text-vcenter {
    margin: 35vh 0 0 0;
@@ -358,8 +72,9 @@ input[type=submit]:active {
 
 .padding{
 	padding: 4%;
-} */
+}
 
+/*ABOUT*/
 
 .about-buttons{
 	display: -ms-flex;
@@ -394,8 +109,8 @@ input[type=submit]:active {
 		border: 3px solid #252439;
 	}
 		.hire-me > .about-button:hover{
-			color: tomato;
-			border-color: tomato;
+			color: rgb(28, 185, 41);
+			border-color:  rgb(28, 185, 41);
 		}
 	.download-cv > .about-button{
 		margin-left: 25px;
@@ -405,7 +120,7 @@ input[type=submit]:active {
 		float: left;
 	}
 		.download-cv > .about-button:hover{
-			background-color: #000;
+			background-color: rgb(28, 185, 41);
 		}
 
 
@@ -429,7 +144,8 @@ input[type=submit]:active {
 
 
 body {
-    font-family: 'Roboto';font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  /* font-size: 16px; */
 }
 
 .aboutus-section {
@@ -479,6 +195,7 @@ body {
 	text-transform: uppercase;
 	font-weight: 100;
 	text-align: center;
+  margin-top: ;
 }
 
 main{
@@ -556,11 +273,6 @@ h1,h2,h3,h4,p,a {
   color: rgba(0,0,0,0.75);
 }
 
-/* .content {
-  height:10vh;
-  background: #ccc;
-} */
-
 .footer-content-wrapper {
   width: 80%;
   margin: 1em auto;  
@@ -628,109 +340,3 @@ h1,h2,h3,h4,p,a {
     border: none;
   }
 }
-/* .bio{
-  text-decoration: underline;
-  margin-bottom: 20px;
-  font-size: 30px;
-}
-
-.fa-instagram {
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-  -webkit-background-clip: text;
-
-          background-clip: text;
-  -webkit-text-fill-color: transparent;
-  
-  font-size: 30px; 
-}
-
-.container {
-margin-top: 150px;
-display: flex;
-justify-content: center;
-align-items: center;
-padding: 30px;
-}
-
-.card {
-background-color: #fff;
-max-width: 1000px;
-box-shadow:0px 25px 50px rgba(0,0,0,.5);
-border-radius: 3px;
-display: grid;
-}
-.card .img-container {
-width: 300px;
-height: 100%;
-grid-column: 2;
-background-color: #c1b7b4;
-background-image: url('assets/images/profile2.jpg');
-background-size: cover;
-background-position: center center;
-}
-.card-content {
-grid-column: 3 / 5;
-padding: 10px 30px;
-border-left: 1px solid #ccc;
-}
-
-.description p{
-  color: black;
-  text-align: left;
-  font-size: 20px;
-  margin-bottom: 20px;
-}
-
-.name .author{
-  color: white;
-  margin-top: 10px;
-}
-
-h2 {
-  margin-top: 10px;
-text-transform: uppercase;
-color: #fff;
-}
-
-h1 {
-margin-bottom: 0;
-}
-
-.social span a{
-  font-size: 30px;
-  margin: 0 20px;
-  display: inline-block;
-  display: -moz-inline-box;
-  justify-content: space-evenly;
-  width: 10%;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-
-.card-content .author p{
-border-top: 1px solid #cdcdcd;
-font-weight: 700;
-margin-top: 25px;
-padding: 25px 0 10px 0;
-
-}
-
-.name{
-   font-size: 20px;
-}
-
-@media only screen and (max-width:600px) {
-.card {
-    display: block;
-}
-.card .img-container {
-    height: 250px;
-    width: 100%;
-}
-.card-content {
-    border: 0;
-    border-top: 1px solid #ccc;
-}
-} */
-/****FOOTER end****/
