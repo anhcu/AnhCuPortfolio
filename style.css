@@ -134,6 +134,13 @@ body{
 			margin-left: 0px;	
 			float: none;
 		}
+    #home{
+      background: url('./assets/images/deadlift.jpg') no-repeat center top fixed;
+	    background-size: cover;
+	    min-height: 50vh;
+	    position: relative;
+	    margin-top: -20px;
+    }
 }
 
 
