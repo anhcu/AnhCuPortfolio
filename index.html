@@ -62,42 +62,58 @@
 
   <!--MAIN-->
  
-  <nav class="navbar navbar-fixed-top" id="nav-bar">
-    <div class="container-fluid">    
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#">Anh Cu
-        </a>
-      </div>
-  
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Project</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </div><!-- /.navbar-collapse -->
-    </div><!-- /.container -->
+  <nav id="nav-bar">
+    <ul>
+      <li class="nav-link" id="menu-item"><a href="#hero-header" class="menu-link"> Home </a></li>
+      <li class="nav-link" id="menu-item"><a href="#features-container" class="menu-link"> Features </a></li>
+      <li class="nav-link" id="menu-item"><a href="#presentation-container" class="menu-link"> Products </a></li>
+      <li class="nav-link" id="menu-item"><a href="#main-media-container" class="menu-link"> Media </a></li>
+      <li class="nav-link" id="menu-item"><a href="#prices-section-container" class="menu-link"> Pricing </a>
+      <li>
+    </ul>
   </nav>
+
   
-  <header id="home">
-    <div class="text-box">
-      <h1>Hello</h1>
-      <p>I'm a Web developer!</p>
-      <a class="btn" href="#">LinkedIn</a>
-      <a class="btn" href="#">Github</a>
-      <a class="btn" href="#">Instagram</a>
   
+  <div id="responsive-header">
+    <div id="responsive-logo-button">
+      <a href="#" id="image-link"><img src="https://i.ibb.co/0jM3ZvH/reverse-black.png" alt="Reverse Logo"
+          id="header-img-black" /></a>
+      <button id="image-button-black"><img src="https://i.ibb.co/yfM3fdZ/dropdown-menu-black.png" alt="Dropdown Menu"
+          id="dropdown-button-black" /></button>
     </div>
-  </header>
+  
+    <div id="responsive-nav-bar">
+      <ul>
+        <li class="nav-link" id="responsive-home-item"><a href="#hero-header" class="responsive-menu-link"> Home </a></li>
+        <li class="nav-link" id="responsive-features-item"><a href="#features-container" class="responsive-menu-link">
+            Features </a></li>
+        <li class="nav-link" id="responsive-products-item"><a href="#presentation-container" class="responsive-menu-link">
+            Products </a></li>
+        <li class="nav-link" id="responsive-media-item"><a href="#main-media-container" class="responsive-menu-link">
+            Media </a></li>
+        <li class="nav-link" id="responsive-pricing-item"><a href="#prices-section-container"
+            class="responsive-menu-link"> Pricing </a>
+        <li>
+      </ul>
+    </div>
+  </div>
+
+</header>
+
+
+<!-- Hero Image, text & button -->
+
+<div id="hero-header">
+<div id="hero-content">
+  <h1 id="hero-title"> A RANDOM TITLE </H1>
+
+  <p id="hero-text"> Some random text to describe the random title </p>
+
+  <a href="#features-container"><button id="hero-button"> Next Section </button></a>
+</div>
+
+</div>
 
   <!--MAIN END-->
 

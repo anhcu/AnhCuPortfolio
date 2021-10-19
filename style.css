@@ -57,63 +57,186 @@ section {
 
 
 /*---------- NAV ----------*/
-.navbar {
-  margin-bottom: 0;
-  border: 0;
-  font-size: 20px;
-  background-color: gray;
-  overflow: hidden;
+body {
+  width: auto;
+  height: auto;
+  /* font-size: 18px; */
+  font-family: "Noto Sans";
+}
+
+#red-text {
+    color: #ff5a6e;
+}
+
+#title-text-separator {
+  width: 5%;
+  margin-top: 1%;
+  border: solid 1px #ff5a6e;
+}
+
+.responsive-menu-link {
+  color: black;
+}
+
+
+/* ----- General Header CSS ------ */
+
+#header {
+  position: fixed;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: auto;
+  font-size: 19px;
+  min-height: 100px;
+}
+
+
+
+
+
+/* Normal Header */
+
+.active-header {
+  background-color: white;
+  color: black;
+}
+
+.menu-link {
+  color: white;
+}
+
+.active-menu-links {
+  color: black;
+}
+
+#normal-header {
+  position: fixed;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  font-size: 19px;
+  min-height: 100px;
+}
+
+#header-img {
+  width: 250px;
+  margin-left: 15%;
+}
+
+#nav-bar {
+}
+
+#nav-bar ul {
+  list-style: none;
+  display: flex;
+  flex-flow: row;
+}
+
+#nav-bar li {
+  padding: 10px;
+  margin: 12px;
+}
+
+#nav-bar ul, a {
   text-decoration: none;
 }
 
-.navbar:hover {
-  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
+
+
+
+
+
+/* Responsive Header */
+
+#responsive-header {
+  display: none;
 }
 
-.nav li a:link,
-.nav li a:visited {
-  text-align: left;
-  text-decoration: none;
-  color: #fff;
-  font-size: 17px;
-  background-color: transparent;
+#image-button-black {
+  display: none;
+  border: none;
 }
 
-@media screen and (min-width: 768px){
-  .nav li a:after {
-    display: block;
-    content: "";
-    border-bottom: solid 2px #f8eee7;
-    transform: scaleX(0);
-    transition: transform 250ms ease-in-out;
-    transform-origin: 100% 50%;
-  }
-
-  .nav li a:hover:after {
-    transform: scaleX(1);
-    transform-origin: 0 50%;
-  }
-  }
-
-  .icon-bar {
-    display: block;
-    width: 15px;
-    height: 5px;
-    background-color: #49274a;
-    margin: 6px 0;
-    box-shadow: 0 2px rgba(0, 0, 0, 0.5);
+#image-button-black:hover {
+  cursor: pointer;
 }
 
-  .navbar-brand:link,
-  .navbar-brand:visited {
-    font-size: 26px;
-    color: #fff;
-    margin-bottom: 3px;
-  }
+#image-button-black:focus {
+  outline: 0;
+}
 
-  .navbar-brand:hover {
-    color: #FCD757;
-  }
+
+
+
+
+/* ----- Hero Header CSS -----
+
+Tags included:
+
+1. hero-header - main container of the Hero
+
+2. hero-content - the container of the title and description within the hero Section
+
+3. hero-title - the title within the hero section
+
+4. hero-text - the text within the hero section
+
+5. hero-button - the button within the hero section
+
+*/
+
+#hero-header {
+  /* width: 100vw; */
+  height: 100vh;
+  box-shadow: 3px 3px 2px #bebebe;
+
+  /* hero-header flexbox */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Texy style */
+  text-align: center;
+  color: white;
+
+  /* Background image */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(https://i.ibb.co/VTdML0x/accessories-apple-business-1038628.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#hero-title {
+  font-size: 3.5em;
+}
+
+#hero-text {
+  font-size: 1.3em;
+  margin-top: 2%;
+}
+
+#hero-button {
+  border: solid 2px white;
+  background-color: inherit;
+  color: white;
+  margin-top: 6%;
+  width: 25%;
+  height: 55px;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+#hero-button:hover {
+  cursor: pointer;
+}
 
 /*------- HEADER ------------*/
 
