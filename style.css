@@ -108,7 +108,7 @@ body{
 /*NAV end*/
 
 /*HERO*/
-/* #home {
+#home {
 	background: url('./assets/images/deadlift.jpg') no-repeat center top fixed;
 	background-size: cover;
 	min-height: 100vh;
@@ -226,69 +226,8 @@ body{
 	    min-height: 50vh;
 	    position: relative;
     }
-} */
-
-* {
-	box-sizing: border-box;
 }
 
-html,
-body {
-	margin: 0;
-	padding: 0;
-}
-
-.container {
-background-image: url(./assets/images/deadlift.jpg);
-	font-family: "Roboto", sans-serif;
-	color: white;
-  background-size: cover;
-	min-height: 100vh;
-	position: relative;
-  min-width: 100vw;
-}
-
-.layout {
-	width: 90%;
-	max-width: 1200px;
-	margin: 0 auto;
-}
-
-.hero {
-	width: 50%;
-	padding: 10vh 0;
-}
-
-h1 {
-	font-family: "Roboto", sans-serif;
-	font-weight: black;
-	font-size: 48px;
-	margin: 0;
-}
-
-p {
-	font-weight: regular;
-	line-height: 1.5rem;
-	margin-bottom: 2rem;
-}
-
-button {
-	color: #23424a;
-	font-weight: bold;
-	font-size: 21px;
-	text-transform: uppercase;
-	background-color: #38cfd9;
-	border: none;
-	cursor: pointer;
-	padding: 0.8em 1.4em;
-	border-radius: 100px;
-	transition: background-color 0.6s ease-in-out, transform 0.6s ease-in-out;
-}
-
-button:hover {
-	background-color: #2eabb3;
-	transform: scale(1.04);
-}
 
 
 /*ABOUT*/
@@ -297,7 +236,7 @@ body {
     font-family: 'Roboto';font-size: 16px;
 } */
 
-.aboutus-section {
+/* .aboutus-section {
     padding: 90px 0;
 }
 .aboutus-title {
@@ -324,7 +263,7 @@ body {
     font-size: 18px;
     line-height: 22px;
     margin: 0 0 35px;
-} 
+}  */
 /*ABOUT END*/
 
 
