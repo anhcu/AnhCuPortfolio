@@ -15,6 +15,11 @@ body{
   overflow-x: hidden;
 }
 
+/*NAV*/
+/* .navbar{
+	background: #cccccc;
+} */
+
 /*HERO*/
 #home {
 	background: url('./assets/images/deadlift.jpg') no-repeat center top fixed;
