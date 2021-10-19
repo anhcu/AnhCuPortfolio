@@ -16,9 +16,10 @@ body{
 }
 
 /*NAV*/
-/* .navbar{
-	background: #cccccc;
-} */
+.navbar-header{
+	height:10px;
+}
+
 
 /*HERO*/
 #home {
@@ -264,10 +265,10 @@ h1,h2,h3,h4,p,a {
   color: rgba(0,0,0,0.75);
 }
 
-.content {
+/* .content {
   height:10vh;
   background: #ccc;
-}
+} */
 
 .footer-content-wrapper {
   width: 80%;
