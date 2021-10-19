@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
     integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>Anh Cu Portfolio</title>
 </head>
@@ -24,11 +25,12 @@
           <span class="icon-bar"></span>
         </button>
         <a class="navbar-brand" href="#">Anh Cu</a>
+        
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right btn btn-outline-dark">
           <li><a href="#">Home</a></li>
-          <li><a href="#">Bio</a></li>
+          <li><a href="#">About</a></li>
           <li><a href="#">Project</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
@@ -38,7 +40,20 @@
   <!--nav end-->
 
   <!--hero-->
-
+  <div id="home" class="section">
+    <div class="container">
+      <div class="text-vcenter text-center">
+        <h1 class="display-1">HELLO</h1>
+        <h3>I'm Anh Cu</h3>
+        <h4>Web Developer</h4>
+        <div class="row">
+          <a href="#" target="_blank"><i class="fab fa-github fa-3x top-icon" aria-hidden="true"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-linkedin fa-3x top-icon" aria-hidden="true"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-instagram fa-3x top-icon" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
   <!--hero end-->
 
   <!--MAIN-->
@@ -46,69 +61,41 @@
 
 
   <!--MAIN END-->
+
 <section>
-        <div class="wrap">
-          <div class="about">
-            <div class="about-intro">
-              <h4>About</h4>
-              <h1>Let me introduce myself</h1>
-              <div class="intro-details">
-                <div class="intro-image">
-                  <div class="image">
-                    <img class="image"
-                      src="./assets/images/profile.jpg"
-                      alt="">
-                  </div>
-                </div>
-                <div class="intro-paragraph padding">
-                  <p>Exceptionally creative and a dependable Web Developer with superb customer service and work ethic. Passionate job seeker with strong organizational skills. Thrives in a collaborative environment as a planner and a leader. Eager, hardworking candidate looking to bring these experiences to add immense values as well as learn and continuously adapt in a collaborative environment.</p>
-                </div>
-              </div>
-            </div>
+  <div class="aboutus-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-sm-6 col-xs-12">
+          <div class="aboutus-banner">
+            <img src="./assets/images/profile.jpg" alt="profile">
+          </div>
+        </div>
+
+        <div class="col-md-6 col-sm-6 col-xs-12">
+          <div class="aboutus">
+            <h2 class="aboutus-title">About Me</h2>
+            <p class="aboutus-text">Exceptionally creative and a dependable Web Developer with superb customer service
+              and work ethic. Passionate job seeker with strong organizational skills. Thrives in a collaborative
+              environment as a planner and a leader. Eager, hardworking candidate looking to bring these experiences to
+              add immense values as well as learn and continuously adapt in a collaborative environment.</p>
+            <!-- <a class="aboutus-more" href="#">read more</a> -->
+          </div>
+          <div class="aboutus">
+            <h2 class="aboutus-title">Skills</h2>
+            <p class="aboutus-text">JavaScript, HTML, CSS, Node.js, Express, NPM, MySQL, NoSQL, REST API, Postman, Handlebars, React,
+              MERN
+              </p>
+          </div>
+          <div class="aboutus">
+            <h2 class="aboutus-title">Hobbies</h2>
+            <p class="aboutus-text">Weightlifting and deep sea fishing.
+            </p>
+            
+            <!-- <a class="aboutus-more" href="#">read more</a> -->
           </div>
           
-        </div>
-        </div>
-        </div>
-        <div class="about-info">
-          <div class="profile padding">
-            <h2>Profile</h2>
-            <p>Lorem ipsum Qui veniam ut consequat ex ullamco nulla in non ut esse in magna sint minim officia consectetur nisi
-              commodo ea magna pariatur nisi cillum.</p>
-            <h3>Fullname:</h3>
-            <p>Ieuan Tomos Walker</p>
-            <h3>Job:</h3>
-            <p>Student</p>
-          </div>
-          <div class="skills padding">
-            <h2>Skills</h2>
-            <p>Lorem ipsum Qui veniam ut consequat ex ullamco nulla in non ut esse in magna sint minim officia consectetur nisi
-              commodo ea magna pariatur nisi cillum.</p>
-            <ul class="skill-bars">
-              <!-- <li>
-                <div class="progress percent90"><span>90%</span></div>
-                <strong>HTML5</strong>
-              </li>
-              <li>
-                <div class="progress percent85"><span>85%</span></div>
-                <strong>CSS3</strong>
-              </li>
-              <li>
-                <div class="progress percent70"><span>70%</span></div>
-                <strong>JQuery</strong>
-              </li>
-              <li>
-                <div class="progress percent95"><span>95%</span></div>
-                <strong>PHP</strong>
-              </li>
-              <li>
-        
-                <div class="progress percent75"><span>75%</span></div>
-                <strong>Wordpress</strong>
-              </li> -->
-        
-            </ul> <!-- /skill-bars -->
-        
+          <div class="col-md-6 col-sm-6 col-xs-12">
             <div class="about-buttons padding">
               <div class="hire-me">
                 <button class="about-button">Hire me</button>
@@ -119,20 +106,17 @@
             </div>
           </div>
         </div>
-        <!-- <div class="about-buttons padding">
-          <div class="hire-me">
-            <button class="about-button">Hire me</button>
-          </div>
-          <div class="download-cv">
-            <button class="about-button">Download CV</button>
-          </div>
-        </div>
-        </div> -->
-        </div>
         
-        </section>
+     
+      </div>
+    </div>
+  </div>
+</section>
 
   <!--PROJECT-->
+  <div id="ProjectCard">
+  <div class="projectBG">
+    <h1 class="projectP">Project</h1>
   <main>
     <section>
       <figure>
@@ -214,32 +198,9 @@
         <button class="btn card_btn"><a href="https://github.com/anhcu/Work-Day-Scheduler">Github</a></button>
       </article>
     </section>
-    <section>
-      <figure>
-        <img src="" alt="">
-      </figure>
-      <article>
-        <!-- <span>Social Media</span> -->
-        <h1>NEED TO ADD</h1>
-        <p>NEED WO ADD</p>
-        <button class="btn card_btn"><a href="">Github</a></button>
-        <button class="btn card_btn"><a href="">Deployed</a></button>
-      </article>
-    </section>
-    <section>
-      <figure>
-        <img src="" alt="">
-      </figure>
-      <article>
-        <!-- <span>Social Media</span> -->
-        <h1>NEED TO ADD</h1>
-        <p>NEED WO ADD</p>
-        <button class="btn card_btn"><a href="">Github</a></button>
-        <button class="btn card_btn"><a href="">Deployed</a></button>
-      </article>
-    </section>
-
   </main>
+</div>
+</div>
   <!--PROJECT END-->
 
   <div class="content"></div>
