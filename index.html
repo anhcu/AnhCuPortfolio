@@ -10,35 +10,38 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
   <title>Anh Cu Portfolio</title>
 </head>
 
 <body>
-  <!--nav-->
-  <nav class="navbar navbar-inverse">
+<!--NAV-->
+  <nav class="navbar navbar-default navbar-custom">
     <div class="container-fluid">
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+          data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#myNavbar"><img src="./assets/images/paperLogo.png"></a>
-        
+        <a class="navbar-brand " href="#home"><img src="./assets/images/paperLogo.png"></a>
       </div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav navbar-right btn btn-outline-dark">
-          <li><a href="#myNavbar">Home</a></li>
-          <li><a href="#about">About</a></li>
+  
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right topnav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Me</a></li>
           <li><a href="#ProjectCard">Project</a></li>
           <li><a href="#location">Contact</a></li>
         </ul>
       </div>
     </div>
   </nav>
-
+     
 
   <!--nav end-->
 
@@ -50,25 +53,14 @@
         <h3>I'm Anh Cu</h3>
         <h4>Web Developer</h4>
         <div class="row">
-          <a href="https://github.com/anhcu" target="_blank"><i class="fab fa-github fa-3x top-icon" aria-hidden="true"></i></a>
-          <a href="https://www.linkedin.com/in/anh-cu/" target="_blank"><i class="fab fa-linkedin fa-3x top-icon" aria-hidden="true"></i></a>
-          <a href="https://www.instagram.com/turnm3anh/" target="_blank"><i class="fab fa-instagram fa-3x top-icon" aria-hidden="true"></i></a>
+          <a href="https://github.com/anhcu" target="_blank" class="icon"><i class="fab fa-github fa-3x top-icon" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/in/anh-cu/" target="_blank" class="icon"><i class="fab fa-linkedin fa-3x top-icon" aria-hidden="true"></i></a>
+          <a href="https://www.instagram.com/turnm3anh/" target="_blank" class="icon"><i class="fab fa-instagram fa-3x top-icon" aria-hidden="true"></i></a>
         </div>
       </div>
     </div>
   </div>
-
-
-  
   <!--hero end-->
-
-  <!--MAIN-->
- 
-
-
-
-
-  <!--MAIN END-->
 
 <section>
   <div class="aboutus-section">
@@ -123,12 +115,11 @@
         <img src="assets/images/Nommy.png" alt="Nommy Project">
       </figure>
       <article>
-        <!-- <span>Social Media</span> -->
         <h1>Nommy</h1>
         <p>As a foodie, I have the ability to search for restaurants, click on the link to learn more about the
           restaurants and save it.</p>
-        <button class="btn card_btn"><a href="https://github.com/anhcu/nommy">Github</a></button>
-        <button class="btn card_btn"><a href="https://nommy-restaurants.herokuapp.com/">Deployed</a></button>
+        <button class="btn btn-primary" onclick="window.location.href='https://github.com/anhcu/nommy'">Github</button>
+        <button class="btn btn-primary" onclick="window.location.href='https://nommy-restaurants.herokuapp.com/'">Deployed</button>
       </article>
     </section>
 
@@ -137,11 +128,10 @@
         <img src="assets/images/ToolinAround.png" alt="Toolin Around">
       </figure>
       <article>
-        <!-- <span>Social Media</span> -->
         <h1>Toolin' Around</h1>
         <p>This application make it easier to find and borrow tools from your neighbors and neighborhood near by.</p>
-        <button class="btn card_btn"><a href="https://github.com/anhcu/Toolin-Around-1">Github</a></button>
-        <button class="btn card_btn"><a href="https://toolin-around.herokuapp.com/">Deployed</a></button>
+        <button class="btn btn-primary" onclick="window.location.href='https://github.com/anhcu/Toolin-Around-1'">Github</button>
+        <button class="btn btn-primary" onclick="window.location.href='https://toolin-around.herokuapp.com/'">Deployed</button>
       </article>
     </section>
 
@@ -150,11 +140,10 @@
         <img src="assets/images/CharlieCuTattoo.png" alt="CharlieCuTattoo">
       </figure>
       <article>
-        <!-- <span>Social Media</span> -->
         <h1>Charlie Cu Tattoo</h1>
         <p>Charlie Cu Tattoo is an online portfolio website that showcases all the latest tattoo work.</p>
-        <button class="btn card_btn"><a href="https://github.com/anhcu/Charlie-Cu-Tattoo">Github</a></button>
-        <button class="btn card_btn"><a href="https://anhcu.github.io/Charlie-Cu-Tattoo/">Deployed</a></button>
+        <button class="btn btn-primary" onclick="window.location.href='https://github.com/anhcu/Charlie-Cu-Tattoo'">Github</button>
+        <button class="btn btn-primary" onclick="window.location.href='https://anhcu.github.io/Charlie-Cu-Tattoo/'">Deployed</button>
       </article>
     </section>
     <section>
@@ -162,11 +151,10 @@
         <img src="assets/images/BudgetTracker.png" alt="BudgetTracker">
       </figure>
       <article>
-        <!-- <span>Social Media</span> -->
         <h1>Budget Tracker</h1>
         <p>This application allows a user to document any expense with and without internet connection.</p>
-        <button class="btn card_btn"><a href="https://github.com/anhcu/PWA-Budget-Trackers">Github</a></button>
-        <button class="btn card_btn"><a href="https://pwa-traveler-tracker.herokuapp.com/">Deployed</a></button>
+        <button class="btn btn-primary" onclick="window.location.href='https://github.com/anhcu/PWA-Budget-Trackers'">Github</button>
+        <button class="btn btn-primary" onclick="window.location.href='https://pwa-traveler-tracker.herokuapp.com/'">Deployed</button>
       </article>
     </section>
 
@@ -175,15 +163,13 @@
         <img src="assets/images/noteTaker.png" alt="noteTaker">
       </figure>
       <article>
-        <!-- <span>Social Media</span> -->
         <h1>Business Owner Note Taker</h1>
         <p>As a business owner, I need to jot down different types of to-dos throughout the day and have the ability to
           delete
           when it's complete.
         </p>
-        <button class="btn card_btn"><a href="https://github.com/anhcu/Business-Owner-Note-Taker">Github</a></button>
-        <button class="btn card_btn"><a
-            href="https://business-owner-note-taker.herokuapp.com/notes">Deployed</a></button>
+        <button class="btn btn-primary" onclick="window.location.href='https://github.com/anhcu/Business-Owner-Note-Taker'">Github</button>
+        <button class="btn btn-primary" onclick="window.location.href='https://business-owner-note-taker.herokuapp.com/notes'">Deployed</button>
       </article>
     </section>
     <section>
@@ -191,11 +177,11 @@
         <img src="assets/images/WorkDayScheduler.png" alt="WorkDayScheduler">
       </figure>
       <article>
-        <!-- <span>Social Media</span> -->
-        <h1>Work Day Scheduler</h1>
+        <h1>Work Day<br> Scheduler</h1>
         <p>A calendar application that allows a user to save an event for each hour of the day.
         </p>
-        <button class="btn card_btn"><a href="https://github.com/anhcu/Work-Day-Scheduler">Github</a></button>
+        <button class="btn btn-primary" onclick="window.location.href='https://github.com/anhcu/Work-Day-Scheduler'">Github</button>
+
       </article>
     </section>
   </main>
@@ -215,28 +201,33 @@
       </div>
 
       <div class="footer-col large-25 small-50 tiny-100 ta-l flt">
-        <h4>Quick links</h4>
+        <h4 style="font-weight: bold;">Quick Links</h4>
         <div class="footerLink">
-          <a href="#myNavbar">Home</a>
-          <a href="#about">About</a>
-          <a href="#ProjectCard">Project</a>
+          <a href="#home" class="link">Home</a>
+          <a href="#about" class="link">About</a>
+          <a href="#ProjectCard" class="link">Project</a>
         </div>
       </div>
 
+     
+
+      </div>
+
+
       <div class="footer-col large-25 small-50 tiny-100 ta-l flt">
-        <h4>Social</h4>
+        <h4 style="font-weight: bold;">Social</h4>
         <div class="footerLink">
-          <a href="https://docs.google.com/document/d/1mXf4AnQk6QVetIHExKvDpkcAbR-ArRaJTNZGg7qWoZU/edit?usp=sharing"><i
+          <a href="https://docs.google.com/document/d/1mXf4AnQk6QVetIHExKvDpkcAbR-ArRaJTNZGg7qWoZU/edit?usp=sharing" class="link"><i
               class="far fa-id-card"></i> Resume</a>
-          <a href="https://github.com/anhcu"><i class="fab fa-github"></i> Github</a>
-          <a href="https://www.linkedin.com/in/anh-cu/"><i class="fab fa-linkedin"></i> LinkedIn</a>
-          <a href="https://www.instagram.com/turnm3anh/"><i class="fab fa-instagram"></i> Instagram</a>
+          <a href="https://github.com/anhcu" class="link"><i class="fab fa-github"></i> Github</a>
+          <a href="https://www.linkedin.com/in/anh-cu/" class="link"><i class="fab fa-linkedin"></i> LinkedIn</a>
+          <a href="https://www.instagram.com/turnm3anh/" class="link"><i class="fab fa-instagram"></i> Instagram</a>
         </div>
 
       </div>
 
       <div id="location" class="footer-col large-25 small-50 tiny-100 ta-l flt">
-        <h4>Location</h4>
+        <h4 style="font-weight: bold;">Location</h4>
         <div class="footerLink">
           <i class="fas fa-map-marker-alt"></i> Decatur <br>
           <i class="fas fa-phone-volume"></i> 404.518.3986
