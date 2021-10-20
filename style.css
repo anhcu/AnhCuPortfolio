@@ -20,12 +20,11 @@ body{
 
 /*NAV*/
 
+
 .navbar-custom {
-    /* background:transparent; */
     background-color:rgb(28, 68, 104);
     font-family: 'Roboto', sans-serif;
     color: white;
-    /* opacity: .4;  */
     border: 0 !important;
 }
 
@@ -35,7 +34,6 @@ body{
 
 .nav.navbar-nav.navbar-right li a:hover {
   background-color: #111;
-  /* opacity: 0.5; */
   color: white;
 
   font-family: 'Roboto', sans-serif;
@@ -224,6 +222,7 @@ body {
 /* PROJECT */
 
 #ProjectCard {
+
   background: url('./assets/images/deadlift.jpg') no-repeat center bottom fixed;
 	background-size: cover;
   background-size: auto 140%;
