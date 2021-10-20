@@ -7,6 +7,9 @@
 *:focus{
 	outline: none;
 }
+body, html{
+  min-height: 100%;
+}
 body{
   background: #f7f7f7;
   color: #777;
@@ -68,11 +71,13 @@ border-top:0px !important;
 #home {
 	background: url('./assets/images/deadlift.jpg') no-repeat center top fixed;
 	background-size: cover;
+  background-size: auto 140%;
 	min-height: 100vh;
+  min-width: 100vw;
 	position: relative;
-  margin-top: -20px;
   }
-  
+
+ 
   .text-vcenter {
    margin: 35vh 0 0 0;
   }
@@ -219,11 +224,12 @@ body {
 /* PROJECT */
 
 #ProjectCard {
-	background: url('./assets/images/deadlift.jpg') no-repeat center bottom fixed;
+  background: url('./assets/images/deadlift.jpg') no-repeat center bottom fixed;
 	background-size: cover;
+  background-size: auto 140%;
 	min-height: 100vh;
+  min-width: 100vw;
 	position: relative;
-	margin-top: 20px;
   }
 
 .projectP{
