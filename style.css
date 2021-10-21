@@ -80,62 +80,11 @@ body{
     margin-bottom: 3px;
   }
 
-  /* .navbar-brand:hover {
-    color: #FCD757;
-  } */
-
-
-/* .navbar-custom {
-    background-color:rgb(28, 68, 104);
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    border: 0 !important;
-}
-
-.nav li a{
-  color: white;
-}
-
-.nav.navbar-nav.navbar-right li a:hover {
-  background-color: #111;
-  color: white;
-
-  font-family: 'Roboto', sans-serif;
-}
-
-.nav.navbar-nav.navbar-right li a {
-    display: inline-block;
-    text-align: center;
-    padding: 14px 16px;
-    padding-right: 25px;
-    text-decoration: none;
-    transition: 0.3s;
-    font-size: 1.8em;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-}
-
-.navbar-default .navbar-brand {
-    color: black;
-    font-size: 1.5em;
-}
-
-.nav.navbar-brand li{
-  color: black;
-}
-
-.navbar-collapse{
-border-top:0px !important;
- box-shadow:none;
-} */
-
 /*HERO*/
 #home {
   background: url('./assets/images/deadlift.jpg') no-repeat center top fixed;
 	background-size: cover;
-  /* background-size: auto 140%; */
 	min-height: 100vh;
-  /* min-width: 100vw; */
 	position: relative;
   }
  
@@ -179,7 +128,6 @@ border-top:0px !important;
 }
 
 /*ABOUT*/
-
 .about-buttons{
 	display: -ms-flex;
 	display: -webkit-flex;
@@ -246,10 +194,8 @@ border-top:0px !important;
 		}
 }
 
-
 body {
   font-family: 'Roboto', sans-serif;
-  /* font-size: 16px; */
 }
 
 .aboutus-section {
@@ -283,14 +229,10 @@ body {
 
 
 /* PROJECT */
-
 #ProjectCard {
-
   background: url('./assets/images/deadlift.jpg') no-repeat center bottom fixed;
 	background-size: cover;
-  background-size: auto 140%;
 	min-height: 100vh;
-  min-width: 100vw;
 	position: relative;
   }
 
@@ -340,12 +282,6 @@ p{
   font-size: 13px;
 }
 
-/* 
-.description{
-  color: #285AEB;
-} */
-
-
 @supports (display: grid){
   @media only screen and (min-width: 768px){
     main{
@@ -363,14 +299,7 @@ p{
   }
 }
 
-
 /***FOOTER****/
-
-/* body,h1,h2,h3,h4 {
-  margin: 0;
-  padding: 0;
-} */
-
 h1,h2,h3,h4,p,a {
   text-decoration: none;
   color: black;
@@ -399,7 +328,6 @@ h1,h2,h3,h4,p,a {
 .footerLink{
   color: black;
   text-decoration: none;
-  /* display:block; */
   margin: 20px auto;
   position: relative;
   overflow: hidden;
@@ -420,7 +348,6 @@ html {
 a{
   color: #6E5C34;
   text-decoration: none;
-  /* display:block; */
   margin: 20px auto;
   position: relative;
   overflow: hidden;
@@ -463,15 +390,12 @@ a:hover{
   transform: translate3d(0,0,0);
 }
 
-
-
 .logo{
   height:100px;
   width: 125px;
   text-align: center;
   margin-top: 10px;
   background: transparent;
-  
 }
 
 .ta-l {
