@@ -466,10 +466,12 @@ a:hover{
 
 
 .logo{
-  height: 100px;
-  width: 150px;
+  height:100px;
+  width: 125px;
   text-align: center;
   margin-top: 10px;
+  background: transparent;
+  
 }
 
 .ta-l {
