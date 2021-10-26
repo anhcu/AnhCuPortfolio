@@ -453,7 +453,7 @@ a{
   /* padding:0 6px; */
   text-transform: uppercase;
   transition: color .3s cubic-bezier(0.11, 0.7, 0, 1);
-  font-size: 0.875rem;
+  /* font-size: 0.875rem; */
   /* letter-spacing: .15rem; */
   line-height: 1.8;
 }
