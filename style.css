@@ -20,12 +20,11 @@ body {
 }
 
 /*NAV*/
-/* .navbar {
+.navbar {
   margin-bottom: 0;
   border: 0;
   font-size: 20px;
-  background-color: #ed7669;
-
+  background: linear-gradient(black, rgb(10, 4, 2));
   overflow: hidden;
   text-decoration: none;
 }
@@ -64,7 +63,7 @@ body {
   display: block;
   width: 15px;
   height: 5px;
-  background-color: #49274a;
+  background-color: #fff;
   margin: 6px 0;
   box-shadow: 0 2px rgba(0, 0, 0, 0.5);
 }
@@ -79,7 +78,7 @@ body {
   font-size: 26px;
   color: #fff;
   margin-bottom: 3px;
-} */
+}
 
 /*HERO*/
 #home {
