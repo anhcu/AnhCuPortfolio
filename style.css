@@ -20,7 +20,7 @@ body {
 }
 
 /*NAV*/
-.navbar {
+/* .navbar {
   margin-bottom: 0;
   border: 0;
   font-size: 20px;
@@ -79,7 +79,7 @@ body {
   font-size: 26px;
   color: #fff;
   margin-bottom: 3px;
-}
+} */
 
 /*HERO*/
 #home {
@@ -126,6 +126,12 @@ body {
 
 .padding {
   padding: 4%;
+}
+
+@media screen and (min-width: 768px) {
+  home {
+    background: url('./assets/images/newBG.png') no-repeat center top fixed;
+  }
 }
 
 /*ABOUT*/
